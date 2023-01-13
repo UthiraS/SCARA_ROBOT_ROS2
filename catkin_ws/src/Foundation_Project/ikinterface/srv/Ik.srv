@@ -1,0 +1,9 @@
+float32 a
+float32 b
+float32 c
+---
+float32 theta1_1
+float32 theta1_2
+float32 theta2_1
+float32 theta2_2
+float32 d3

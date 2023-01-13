@@ -1,0 +1,3 @@
+[console_scripts]
+listener = FK.end_pose:main
+
