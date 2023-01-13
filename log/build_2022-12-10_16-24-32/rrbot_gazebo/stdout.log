@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target switch[0m
+[ 50%] Built target publisher
+[100%] Built target switch
+-- Install configuration: ""
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/publisher
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/switch
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/launch
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/launch/rrbot_world.launch.py
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/worlds
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/worlds/rrbot.world
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config/controllers.yaml
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config/gazebo_controllers.yaml
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/package_run_dependencies/rrbot_gazebo
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/parent_prefix_path/rrbot_gazebo
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.sh
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.dsv
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.bash
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.sh
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.zsh
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/packages/rrbot_gazebo
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake
+-- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.xml

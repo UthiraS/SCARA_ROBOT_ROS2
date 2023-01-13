@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_gazebo -- -j8 -l8
+[0.091s] [ 50%] Built target publisher
+[0.095s] [100%] Built target switch
+[0.112s] Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_gazebo -- -j8 -l8
+[0.153s] Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_gazebo
+[0.162s] -- Install configuration: ""
+[0.162s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/publisher
+[0.162s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/switch
+[0.163s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/launch
+[0.163s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/launch/rrbot_world.launch.py
+[0.163s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/worlds
+[0.163s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/worlds/rrbot.world
+[0.164s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config
+[0.164s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config/controllers.yaml
+[0.164s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config/gazebo_controllers.yaml
+[0.164s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/package_run_dependencies/rrbot_gazebo
+[0.164s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/parent_prefix_path/rrbot_gazebo
+[0.165s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.sh
+[0.165s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.dsv
+[0.165s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.sh
+[0.165s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.dsv
+[0.165s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.bash
+[0.166s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.sh
+[0.166s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.zsh
+[0.172s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.dsv
+[0.172s] -- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv
+[0.172s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/packages/rrbot_gazebo
+[0.173s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake
+[0.173s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake
+[0.173s] -- Up-to-date: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.xml
+[0.174s] Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_gazebo

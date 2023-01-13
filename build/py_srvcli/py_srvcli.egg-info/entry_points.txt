@@ -1,0 +1,6 @@
+[console_scripts]
+control = py_srvcli.control_velocity:main
+listener = py_srvcli.traj_follow:main
+service = py_srvcli.traj_follow:main
+vel = py_srvcli.Velocity_Service:main
+

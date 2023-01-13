@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001957] (-) JobUnselected: {'identifier': 'FK'}
+[0.002198] (-) JobUnselected: {'identifier': 'ikinterface'}
+[0.003489] (-) JobUnselected: {'identifier': 'rrbot_description'}
+[0.003560] (-) JobUnselected: {'identifier': 'rrbot_gazebo'}
+[0.003612] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.003662] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.097348] (-) TimerEvent: {}
+[0.197736] (-) TimerEvent: {}
+[0.298226] (-) TimerEvent: {}
+[0.398981] (-) TimerEvent: {}
+[0.499967] (-) TimerEvent: {}
+[0.600743] (-) TimerEvent: {}
+[0.701470] (-) TimerEvent: {}
+[0.803371] (-) TimerEvent: {}
+[0.904166] (-) TimerEvent: {}
+[1.004866] (-) TimerEvent: {}
+[1.106507] (-) TimerEvent: {}
+[1.207850] (-) TimerEvent: {}
+[1.309022] (-) TimerEvent: {}
+[1.410217] (-) TimerEvent: {}
+[1.510707] (-) TimerEvent: {}
+[1.611519] (-) TimerEvent: {}
+[1.712660] (-) TimerEvent: {}
+[1.813232] (-) TimerEvent: {}
+[1.913736] (-) TimerEvent: {}
+[2.014500] (-) TimerEvent: {}
+[2.087569] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/py_srvcli', 'build', '--build-base', '/home/aadesh/catkin_ws/build/py_srvcli/build', 'install', '--prefix', '/home/aadesh/catkin_ws/install/py_srvcli', '--record', '/home/aadesh/catkin_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/aadesh/catkin_ws/src/Foundation_Project/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aadesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aadesh/catkin_ws/install/ikinterface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/aadesh', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '13383', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aadesh/catkin_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aadesh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aadesh', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/aadesh/catkin_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aadesh-Inspiron-5570:@/tmp/.ICE-unix/2555,unix/aadesh-Inspiron-5570:/tmp/.ICE-unix/2555', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9fbb8b47_10fb_440f_a6da_f21907d9bb92', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4CM6W1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.156', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aadesh/catkin_ws/install/rrbot_gazebo:/home/aadesh/catkin_ws/install/rrbot_description:/home/aadesh/catkin_ws/install/py_srvcli:/home/aadesh/catkin_ws/install/ikinterface:/home/aadesh/catkin_ws/install/FK:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aadesh/catkin_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:/home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:/home/aadesh/catkin_ws/install/ikinterface/local/lib/python3.10/dist-packages:/home/aadesh/catkin_ws/install/FK/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/aadesh/catkin_ws/install/rrbot_gazebo:/home/aadesh/catkin_ws/install/rrbot_description:/home/aadesh/catkin_ws/install/ikinterface'}, 'shell': False}
+[2.114577] (-) TimerEvent: {}
+[2.215364] (-) TimerEvent: {}
+[2.316507] (-) TimerEvent: {}
+[2.418282] (-) TimerEvent: {}
+[2.519536] (-) TimerEvent: {}
+[2.620132] (-) TimerEvent: {}
+[2.721722] (-) TimerEvent: {}
+[2.822605] (-) TimerEvent: {}
+[2.923340] (-) TimerEvent: {}
+[3.024742] (-) TimerEvent: {}
+[3.125656] (-) TimerEvent: {}
+[3.226395] (-) TimerEvent: {}
+[3.250966] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.252124] (py_srvcli) StdoutLine: {'line': b'writing ../../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[3.252476] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[3.252765] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[3.253135] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[3.253523] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[3.259671] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.265240] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.266539] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[3.267005] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.267279] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/control_bitch.py -> /home/aadesh/catkin_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.267739] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[3.267994] (py_srvcli) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.268191] (py_srvcli) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.268411] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.269978] (py_srvcli) StdoutLine: {'line': b'copying /home/aadesh/catkin_ws/build/py_srvcli/build/lib/py_srvcli/control_bitch.py -> /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[3.271598] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/velocity_controller copy.py to velocity_controller copy.cpython-310.pyc\n'}
+[3.271969] (py_srvcli) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (velocity_controller copy.py, line 50)\n'}
+[3.272274] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/control_bitch.py to control_bitch.cpython-310.pyc\n'}
+[3.280596] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.283110] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.286024] (py_srvcli) StdoutLine: {'line': b"removing '/home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.286709] (py_srvcli) StdoutLine: {'line': b'Copying ../../../build/py_srvcli/py_srvcli.egg-info to /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[3.288558] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.326644] (-) TimerEvent: {}
+[3.342451] (py_srvcli) StdoutLine: {'line': b'Installing control script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.345351] (py_srvcli) StdoutLine: {'line': b'Installing listener script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.346041] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.346465] (py_srvcli) StdoutLine: {'line': b'Installing vel script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.347253] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/aadesh/catkin_ws/build/py_srvcli/install.log'\n"}
+[3.426728] (-) TimerEvent: {}
+[3.466136] (py_srvcli) CommandEnded: {'returncode': 0}
+[3.526875] (-) TimerEvent: {}
+[3.533017] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[3.537609] (-) EventReactorShutdown: {}

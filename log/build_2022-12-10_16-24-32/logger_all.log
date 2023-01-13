@@ -1,0 +1,636 @@
+[0.328s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.329s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f91b06d77c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f91b1046dd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f91b1046dd0>>)
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.352s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asureshkumar/catkin_ws'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/FK) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FK' with type 'ros.ament_python' and name 'FK'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'ros'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extensions ['cmake', 'python']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project) by extension 'python_setup_py'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/ikinterface) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Foundation_Project/ikinterface' with type 'ros.ament_cmake' and name 'ikinterface'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/Foundation_Project/py_srvcli) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Foundation_Project/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX) by extension 'python_setup_py'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/config) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/env-hooks) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/gazebo) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/launch) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/meshes) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/ros2_control) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_description/urdf) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'ros'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extensions ['cmake', 'python']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'cmake'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'python'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extensions ['python_setup_py']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/config) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/launch) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'python'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extensions ['python_setup_py']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/src) by extension 'python_setup_py'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/__MACOSX/rrbot_simulation_files/rrbot_gazebo/worlds) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description' with type 'ros.ament_cmake' and name 'rrbot_description'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo' with type 'ros.ament_cmake' and name 'rrbot_gazebo'
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/asureshkumar/catkin_ws/install
+[0.438s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 305 installed packages in /opt/ros/humble
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'cmake_target' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'cmake_clean_cache' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'cmake_clean_first' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'ament_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'catkin_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'FK' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.513s] DEBUG:colcon.colcon_core.verb:Building package 'FK' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asureshkumar/catkin_ws/build/FK', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asureshkumar/catkin_ws/install/FK', 'merge_install': False, 'path': '/home/asureshkumar/catkin_ws/src/FK', 'symlink_install': False, 'test_result_base': None}
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'cmake_clean_first' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'cmake_force_configure' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'ikinterface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'ikinterface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asureshkumar/catkin_ws/build/ikinterface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asureshkumar/catkin_ws/install/ikinterface', 'merge_install': False, 'path': '/home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface', 'symlink_install': False, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asureshkumar/catkin_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asureshkumar/catkin_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asureshkumar/catkin_ws/build/rrbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asureshkumar/catkin_ws/install/rrbot_description', 'merge_install': False, 'path': '/home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.519s] Level 5:colcon.colcon_core.verb:set package 'rrbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.519s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asureshkumar/catkin_ws/build/rrbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asureshkumar/catkin_ws/install/rrbot_gazebo', 'merge_install': False, 'path': '/home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.520s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.524s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description'
+[0.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.534s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asureshkumar/catkin_ws/src/FK' with build type 'ament_python'
+[0.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('FK', 'ament_prefix_path')
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/FK/share/FK/hook/ament_prefix_path.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/FK/share/FK/hook/ament_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/FK/share/FK/hook/ament_prefix_path.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface' with build type 'ament_cmake'
+[0.544s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface'
+[0.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli' with build type 'ament_python'
+[0.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_description -- -j8 -l8
+[0.861s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asureshkumar/catkin_ws/src/FK'
+[0.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/build/ikinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/ikinterface -- -j8 -l8
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_description -- -j8 -l8
+[1.184s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli'
+[1.186s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_description
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_description
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description' for CMake module files
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description' for CMake config files
+[1.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/bin'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/lib/python3.10/site-packages'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/bin'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.sh'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.zsh'
+[1.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[1.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description' for CMake module files
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description' for CMake config files
+[1.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/lib/python3.10/site-packages'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_description/bin'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.dsv'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.sh'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.bash'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.zsh'
+[1.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[1.296s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo' with build type 'ament_cmake'
+[1.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_gazebo'
+[1.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_gazebo -- -j8 -l8
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_gazebo -- -j8 -l8
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_gazebo
+[1.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_gazebo)
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo' for CMake module files
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/asureshkumar/catkin_ws/install/rrbot_description:/home/asureshkumar/catkin_ws/install/rrbot_gazebo:/home/asureshkumar/catkin_ws/install/ikinterface:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_gazebo
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_gazebo', 'cmake_prefix_path')
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/pkgconfig/rrbot_gazebo.pc'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/python3.10/site-packages'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/bin'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.bash'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.zsh'
+[1.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/colcon-core/packages/rrbot_gazebo)
+[1.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_gazebo)
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo' for CMake module files
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo' for CMake config files
+[1.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_gazebo', 'cmake_prefix_path')
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.ps1'
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/hook/cmake_prefix_path.sh'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/bin'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/pkgconfig/rrbot_gazebo.pc'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/python3.10/site-packages'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/bin'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.ps1'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.sh'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.bash'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.zsh'
+[1.537s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/colcon-core/packages/rrbot_gazebo)
+[1.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/src/FK': PYTHONPATH=/home/asureshkumar/catkin_ws/build/FK/prefix_override:/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/FK build --build-base /home/asureshkumar/catkin_ws/build/FK/build install --record /home/asureshkumar/catkin_ws/build/FK/install.log --single-version-externally-managed
+[1.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli': PYTHONPATH=/home/asureshkumar/catkin_ws/build/py_srvcli/prefix_override:/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/asureshkumar/catkin_ws/build/py_srvcli/build install --record /home/asureshkumar/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/FK' for CMake module files
+[1.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/src/FK' returned '0': PYTHONPATH=/home/asureshkumar/catkin_ws/build/FK/prefix_override:/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/FK build --build-base /home/asureshkumar/catkin_ws/build/FK/build install --record /home/asureshkumar/catkin_ws/build/FK/install.log --single-version-externally-managed
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/FK' for CMake config files
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/FK/lib'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/FK/bin'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/FK/lib/pkgconfig/FK.pc'
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages'
+[2.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('FK', 'pythonpath')
+[2.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/FK/share/FK/hook/pythonpath.ps1'
+[2.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/FK/share/FK/hook/pythonpath.dsv'
+[2.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/FK/share/FK/hook/pythonpath.sh'
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/FK/bin'
+[2.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(FK)
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/FK/share/FK/package.ps1'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/FK/share/FK/package.dsv'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/FK/share/FK/package.sh'
+[2.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/FK/share/FK/package.bash'
+[2.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/FK/share/FK/package.zsh'
+[2.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/FK/share/colcon-core/packages/FK)
+[2.058s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/py_srvcli' for CMake module files
+[2.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli' returned '0': PYTHONPATH=/home/asureshkumar/catkin_ws/build/py_srvcli/prefix_override:/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/asureshkumar/catkin_ws/build/py_srvcli/build install --record /home/asureshkumar/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/py_srvcli' for CMake config files
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/py_srvcli/lib'
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/py_srvcli/bin'
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages'
+[2.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/py_srvcli/bin'
+[2.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[2.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[2.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/build/ikinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/ikinterface -- -j8 -l8
+[4.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asureshkumar/catkin_ws/build/ikinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/ikinterface
+[4.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ikinterface)
+[4.850s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface' for CMake module files
+[4.852s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface' for CMake config files
+[4.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asureshkumar/catkin_ws/build/ikinterface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/ikinterface
+[4.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('ikinterface', 'cmake_prefix_path')
+[4.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/cmake_prefix_path.ps1'
+[4.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/cmake_prefix_path.dsv'
+[4.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/cmake_prefix_path.sh'
+[4.856s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/lib'
+[4.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('ikinterface', 'ld_library_path_lib')
+[4.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/ld_library_path_lib.ps1'
+[4.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/ld_library_path_lib.dsv'
+[4.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/ld_library_path_lib.sh'
+[4.858s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/bin'
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/lib/pkgconfig/ikinterface.pc'
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/lib/python3.10/site-packages'
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/bin'
+[4.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.ps1'
+[4.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.dsv'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.sh'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.bash'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.zsh'
+[4.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/ikinterface/share/colcon-core/packages/ikinterface)
+[4.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ikinterface)
+[4.938s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface' for CMake module files
+[4.939s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface' for CMake config files
+[4.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('ikinterface', 'cmake_prefix_path')
+[4.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/cmake_prefix_path.ps1'
+[4.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/cmake_prefix_path.dsv'
+[4.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/cmake_prefix_path.sh'
+[4.942s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/lib'
+[4.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('ikinterface', 'ld_library_path_lib')
+[4.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/ld_library_path_lib.ps1'
+[4.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/ld_library_path_lib.dsv'
+[4.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/hook/ld_library_path_lib.sh'
+[4.945s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/bin'
+[4.945s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/lib/pkgconfig/ikinterface.pc'
+[4.945s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/lib/python3.10/site-packages'
+[4.946s] Level 1:colcon.colcon_core.environment:checking '/home/asureshkumar/catkin_ws/install/ikinterface/bin'
+[4.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.ps1'
+[4.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.dsv'
+[4.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.sh'
+[4.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.bash'
+[4.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/asureshkumar/catkin_ws/install/ikinterface/share/ikinterface/package.zsh'
+[4.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asureshkumar/catkin_ws/install/ikinterface/share/colcon-core/packages/ikinterface)
+[4.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.951s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.959s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.975s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asureshkumar/catkin_ws/install/local_setup.ps1'
+[4.978s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asureshkumar/catkin_ws/install/_local_setup_util_ps1.py'
+[4.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asureshkumar/catkin_ws/install/setup.ps1'
+[4.981s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asureshkumar/catkin_ws/install/local_setup.sh'
+[4.982s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asureshkumar/catkin_ws/install/_local_setup_util_sh.py'
+[4.982s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asureshkumar/catkin_ws/install/setup.sh'
+[4.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asureshkumar/catkin_ws/install/local_setup.bash'
+[4.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asureshkumar/catkin_ws/install/setup.bash'
+[4.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asureshkumar/catkin_ws/install/local_setup.zsh'
+[4.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asureshkumar/catkin_ws/install/setup.zsh'

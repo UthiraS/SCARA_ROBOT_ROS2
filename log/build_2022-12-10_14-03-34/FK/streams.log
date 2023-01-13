@@ -1,0 +1,39 @@
+[1.094s] Invoking command in '/home/asureshkumar/catkin_ws/src/FK': PYTHONPATH=/home/asureshkumar/catkin_ws/build/FK/prefix_override:/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/FK build --build-base /home/asureshkumar/catkin_ws/build/FK/build install --record /home/asureshkumar/catkin_ws/build/FK/install.log --single-version-externally-managed
+[1.378s] running egg_info
+[1.379s] creating ../../build/FK/FK.egg-info
+[1.379s] writing ../../build/FK/FK.egg-info/PKG-INFO
+[1.379s] writing dependency_links to ../../build/FK/FK.egg-info/dependency_links.txt
+[1.380s] writing entry points to ../../build/FK/FK.egg-info/entry_points.txt
+[1.380s] writing requirements to ../../build/FK/FK.egg-info/requires.txt
+[1.380s] writing top-level names to ../../build/FK/FK.egg-info/top_level.txt
+[1.380s] writing manifest file '../../build/FK/FK.egg-info/SOURCES.txt'
+[1.382s] reading manifest file '../../build/FK/FK.egg-info/SOURCES.txt'
+[1.383s] writing manifest file '../../build/FK/FK.egg-info/SOURCES.txt'
+[1.383s] running build
+[1.383s] running build_py
+[1.383s] creating /home/asureshkumar/catkin_ws/build/FK/build
+[1.384s] creating /home/asureshkumar/catkin_ws/build/FK/build/lib
+[1.384s] creating /home/asureshkumar/catkin_ws/build/FK/build/lib/FK
+[1.384s] copying FK/end_pose.py -> /home/asureshkumar/catkin_ws/build/FK/build/lib/FK
+[1.384s] copying FK/__init__.py -> /home/asureshkumar/catkin_ws/build/FK/build/lib/FK
+[1.385s] running install
+[1.385s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.385s]   warnings.warn(
+[1.386s] running install_lib
+[1.388s] creating /home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK
+[1.388s] copying /home/asureshkumar/catkin_ws/build/FK/build/lib/FK/end_pose.py -> /home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK
+[1.388s] copying /home/asureshkumar/catkin_ws/build/FK/build/lib/FK/__init__.py -> /home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK
+[1.389s] byte-compiling /home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK/end_pose.py to end_pose.cpython-310.pyc
+[1.389s] byte-compiling /home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK/__init__.py to __init__.cpython-310.pyc
+[1.390s] running install_data
+[1.390s] creating /home/asureshkumar/catkin_ws/install/FK/share/ament_index
+[1.390s] creating /home/asureshkumar/catkin_ws/install/FK/share/ament_index/resource_index
+[1.390s] creating /home/asureshkumar/catkin_ws/install/FK/share/ament_index/resource_index/packages
+[1.391s] copying resource/FK -> /home/asureshkumar/catkin_ws/install/FK/share/ament_index/resource_index/packages
+[1.391s] copying package.xml -> /home/asureshkumar/catkin_ws/install/FK/share/FK
+[1.391s] running install_egg_info
+[1.393s] Copying ../../build/FK/FK.egg-info to /home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK-0.0.0-py3.10.egg-info
+[1.393s] running install_scripts
+[1.418s] Installing listener script to /home/asureshkumar/catkin_ws/install/FK/lib/FK
+[1.418s] writing list of installed files to '/home/asureshkumar/catkin_ws/build/FK/install.log'
+[1.458s] Invoked command in '/home/asureshkumar/catkin_ws/src/FK' returned '0': PYTHONPATH=/home/asureshkumar/catkin_ws/build/FK/prefix_override:/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/FK build --build-base /home/asureshkumar/catkin_ws/build/FK/build install --record /home/asureshkumar/catkin_ws/build/FK/install.log --single-version-externally-managed

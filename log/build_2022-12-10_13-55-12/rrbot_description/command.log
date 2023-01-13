@@ -1,0 +1,2 @@
+Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_description': /usr/bin/cmake /home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description -DCMAKE_INSTALL_PREFIX=/home/asureshkumar/catkin_ws/install/rrbot_description
+Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_description' returned '1': /usr/bin/cmake /home/asureshkumar/catkin_ws/src/rrbot_simulation_files/rrbot_simulation_files/rrbot_description -DCMAKE_INSTALL_PREFIX=/home/asureshkumar/catkin_ws/install/rrbot_description

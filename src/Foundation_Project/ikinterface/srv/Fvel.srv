@@ -1,0 +1,7 @@
+float64 joint1_vel
+float64 joint2_vel
+float64 joint3_vel
+---
+float32 endeff_vel_x
+float32 endeff_vel_y
+float32 endeff_vel_z

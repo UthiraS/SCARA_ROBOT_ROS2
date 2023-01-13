@@ -1,0 +1,1 @@
+Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_description -- -j8 -l8

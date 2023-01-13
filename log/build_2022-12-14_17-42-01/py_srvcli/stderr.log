@@ -1,0 +1,8 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/control_bitch.py", line 167
+    	return response
+    	^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (velocity_controller copy.py, line 50)

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ikinterface/srv/Ref.srv
+// generated code does not contain a copyright notice
+
+
+module ikinterface {
+  module srv {
+    struct Ref_Request {
+      double a;
+
+      double b;
+
+      double c;
+    };
+    struct Ref_Response {
+      float i;
+    };
+  };
+};

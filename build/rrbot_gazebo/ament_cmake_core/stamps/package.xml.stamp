@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rrbot_gazebo</name>
+  <version>0.2.0</version>
+  <description>
+    Launch files and worlds to launch the rrbot in Gazebo, this will publish the joint states in ROS 2.
+  </description>
+  <maintainer email="davetcoleman@gmail.com">Dave Coleman</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://gazebosim.org/w/index.php?title=Tutorials/1.9/Using_A_URDF_In_Gazebo</url>
+  <url type="bugtracker">https://github.com/osrf/gazebo_ros_demos/issues</url>
+  <url type="repository">https://github.com/osrf/gazebo_ros_demos</url>
+
+  <author email="davetcoleman@gmail.com">Dave Coleman</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>controller_manager_msgs</depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros2_control</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rrbot_description</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>

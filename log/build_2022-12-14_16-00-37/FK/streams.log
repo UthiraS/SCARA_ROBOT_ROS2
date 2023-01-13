@@ -1,0 +1,23 @@
+[1.678s] Invoking command in '/home/asureshkumar/catkin_ws/src/FK': PYTHONPATH=/home/asureshkumar/catkin_ws/build/FK/prefix_override:/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/FK build --build-base /home/asureshkumar/catkin_ws/build/FK/build install --record /home/asureshkumar/catkin_ws/build/FK/install.log --single-version-externally-managed
+[2.055s] running egg_info
+[2.056s] writing ../../build/FK/FK.egg-info/PKG-INFO
+[2.057s] writing dependency_links to ../../build/FK/FK.egg-info/dependency_links.txt
+[2.057s] writing entry points to ../../build/FK/FK.egg-info/entry_points.txt
+[2.057s] writing requirements to ../../build/FK/FK.egg-info/requires.txt
+[2.057s] writing top-level names to ../../build/FK/FK.egg-info/top_level.txt
+[2.060s] reading manifest file '../../build/FK/FK.egg-info/SOURCES.txt'
+[2.062s] writing manifest file '../../build/FK/FK.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.062s] running install
+[2.063s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.063s]   warnings.warn(
+[2.063s] running install_lib
+[2.065s] running install_data
+[2.066s] running install_egg_info
+[2.069s] removing '/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK-0.0.0-py3.10.egg-info' (and everything under it)
+[2.070s] Copying ../../build/FK/FK.egg-info to /home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages/FK-0.0.0-py3.10.egg-info
+[2.071s] running install_scripts
+[2.107s] Installing listener script to /home/asureshkumar/catkin_ws/install/FK/lib/FK
+[2.107s] writing list of installed files to '/home/asureshkumar/catkin_ws/build/FK/install.log'
+[2.160s] Invoked command in '/home/asureshkumar/catkin_ws/src/FK' returned '0': PYTHONPATH=/home/asureshkumar/catkin_ws/build/FK/prefix_override:/home/asureshkumar/catkin_ws/install/FK/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/FK build --build-base /home/asureshkumar/catkin_ws/build/FK/build install --record /home/asureshkumar/catkin_ws/build/FK/install.log --single-version-externally-managed

@@ -1,0 +1,31 @@
+[2.552s] Invoking command in '/home/aadesh/catkin_ws/src/Foundation_Project/py_srvcli': PYTHONPATH=/home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/aadesh/catkin_ws/build/py_srvcli/build install --prefix /home/aadesh/catkin_ws/install/py_srvcli --record /home/aadesh/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed
+[3.843s] running egg_info
+[3.851s] writing ../../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[3.852s] writing dependency_links to ../../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[3.853s] writing entry points to ../../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[3.855s] writing requirements to ../../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[3.856s] writing top-level names to ../../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.870s] reading manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.874s] writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.874s] running build
+[3.876s] running build_py
+[3.879s] copying py_srvcli/control_bitch.py -> /home/aadesh/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+[3.882s] running install
+[3.886s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.886s]   warnings.warn(
+[3.887s] running install_lib
+[3.893s] copying /home/aadesh/catkin_ws/build/py_srvcli/build/lib/py_srvcli/control_bitch.py -> /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[3.899s] byte-compiling /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/velocity_controller copy.py to velocity_controller copy.cpython-310.pyc
+[3.902s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (velocity_controller copy.py, line 50)
+[3.902s] byte-compiling /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/control_bitch.py to control_bitch.cpython-310.pyc
+[3.916s] running install_data
+[3.920s] running install_egg_info
+[3.930s] removing '/home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[3.932s] Copying ../../../build/py_srvcli/py_srvcli.egg-info to /home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[3.936s] running install_scripts
+[4.044s] Installing control script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli
+[4.045s] Installing listener script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli
+[4.045s] Installing service script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli
+[4.045s] Installing vel script to /home/aadesh/catkin_ws/install/py_srvcli/lib/py_srvcli
+[4.046s] writing list of installed files to '/home/aadesh/catkin_ws/build/py_srvcli/install.log'
+[4.193s] Invoked command in '/home/aadesh/catkin_ws/src/Foundation_Project/py_srvcli' returned '0': PYTHONPATH=/home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/aadesh/catkin_ws/build/py_srvcli/build install --prefix /home/aadesh/catkin_ws/install/py_srvcli --record /home/aadesh/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed

@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found controller_manager_msgs: 2.16.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/asureshkumar/catkin_ws/build/rrbot_gazebo
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/position_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/switch.dir/src/controller_switch.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable switch[0m
+[ 75%] Built target switch
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/publisher
+-- Set runtime path of "/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/publisher" to ""
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/switch
+-- Set runtime path of "/home/asureshkumar/catkin_ws/install/rrbot_gazebo/lib/rrbot_gazebo/switch" to ""
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/launch
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/launch/rrbot_world.launch.py
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/worlds
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/worlds/rrbot.world
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config/controllers.yaml
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/config/gazebo_controllers.yaml
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/package_run_dependencies/rrbot_gazebo
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/parent_prefix_path/rrbot_gazebo
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.sh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.bash
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.sh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.zsh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/ament_index/resource_index/packages/rrbot_gazebo
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.xml

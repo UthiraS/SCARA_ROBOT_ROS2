@@ -1,0 +1,6 @@
+[0.289s] Invoking command in '/home/aadesh/catkin_ws/build/ikinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aadesh/catkin_ws/install/py_srvcli:/home/aadesh/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/aadesh/catkin_ws/build/ikinterface -- -j8 -l8
+[0.294s] [0mCMake Error: The current CMakeCache.txt directory /home/aadesh/catkin_ws/build/ikinterface/CMakeCache.txt is different than the directory /home/asureshkumar/catkin_ws/build/ikinterface where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.307s] [0mCMake Error: The source directory "/home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface" does not exist.
+[0.307s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.308s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.553s] Invoked command in '/home/aadesh/catkin_ws/build/ikinterface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aadesh/catkin_ws/install/py_srvcli:/home/aadesh/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/aadesh/catkin_ws/build/ikinterface -- -j8 -l8

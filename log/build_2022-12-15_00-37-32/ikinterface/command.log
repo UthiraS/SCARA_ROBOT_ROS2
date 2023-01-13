@@ -1,0 +1,1 @@
+Invoking command in '/home/aadesh/catkin_ws/build/ikinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aadesh/catkin_ws/install/py_srvcli:/home/aadesh/catkin_ws/install/FK:/opt/ros/humble /usr/bin/cmake --build /home/aadesh/catkin_ws/build/ikinterface -- -j8 -l8

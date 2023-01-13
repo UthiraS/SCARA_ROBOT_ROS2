@@ -1,1 +1,0 @@
-# SCARA_ROBOT

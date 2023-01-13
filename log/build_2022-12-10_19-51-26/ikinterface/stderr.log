@@ -1,0 +1,11 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  add_custom_target cannot create target "ikinterface" because another target
+  with the same name already exists.  The existing target is a custom target
+  created in source directory
+  "/home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:12 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:747: cmake_check_build_system] Error 1

@@ -1,0 +1,4 @@
+Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_description': /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_description -- -j8 -l8
+Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_description' returned '0': /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/rrbot_description -- -j8 -l8
+Invoking command in '/home/asureshkumar/catkin_ws/build/rrbot_description': /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_description
+Invoked command in '/home/asureshkumar/catkin_ws/build/rrbot_description' returned '0': /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/rrbot_description

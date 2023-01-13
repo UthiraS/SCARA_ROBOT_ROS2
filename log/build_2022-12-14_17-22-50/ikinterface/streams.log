@@ -1,0 +1,23 @@
+[0.449s] Invoking command in '/home/asureshkumar/catkin_ws/build/ikinterface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/asureshkumar/catkin_ws/install/py_srvcli:/home/asureshkumar/catkin_ws/install/FK /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/ikinterface -- -j8 -l8
+[0.528s] [  2%] Built target ikinterface__cpp
+[0.529s] [ 12%] Built target ikinterface__rosidl_generator_c
+[0.546s] [ 12%] Built target ament_cmake_python_copy_ikinterface
+[0.579s] [ 23%] Built target ikinterface__rosidl_typesupport_fastrtps_c
+[0.580s] [ 35%] Built target ikinterface__rosidl_typesupport_introspection_cpp
+[0.580s] [ 43%] Built target ikinterface__rosidl_typesupport_fastrtps_cpp
+[0.582s] [ 53%] Built target ikinterface__rosidl_typesupport_cpp
+[0.584s] [ 64%] Built target ikinterface__rosidl_typesupport_introspection_c
+[0.597s] [ 74%] Built target ikinterface__rosidl_typesupport_c
+[0.629s] [ 74%] Built target ikinterface
+[0.662s] [ 76%] Built target ikinterface__py
+[0.698s] [ 84%] Built target ikinterface__rosidl_generator_py
+[0.737s] [ 89%] Built target ikinterface__rosidl_typesupport_fastrtps_c__pyext
+[0.738s] [ 94%] Built target ikinterface__rosidl_typesupport_c__pyext
+[0.743s] [100%] Built target ikinterface__rosidl_typesupport_introspection_c__pyext
+[0.983s] running egg_info
+[0.985s] writing ikinterface.egg-info/PKG-INFO
+[0.985s] writing dependency_links to ikinterface.egg-info/dependency_links.txt
+[0.985s] writing top-level names to ikinterface.egg-info/top_level.txt
+[0.989s] reading manifest file 'ikinterface.egg-info/SOURCES.txt'
+[0.989s] writing manifest file 'ikinterface.egg-info/SOURCES.txt'
+[1.035s] [100%] Built target ament_cmake_python_build_ikinterface_egg

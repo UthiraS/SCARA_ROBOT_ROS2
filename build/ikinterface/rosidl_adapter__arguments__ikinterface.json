@@ -1,0 +1,7 @@
+{
+  "package_name": "ikinterface",
+  "non_idl_tuples": [
+    "/home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface:srv/Fvel.srv",
+    "/home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface:srv/Ivel.srv"
+  ]
+}

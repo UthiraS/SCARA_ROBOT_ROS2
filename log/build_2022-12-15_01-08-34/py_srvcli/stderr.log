@@ -1,0 +1,8 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (velocity_controller copy.py, line 50)
+  File "/home/aadesh/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/control_bitch.py", line 85
+    					[-(l3*cos(theta1 + theta2) + l2*cos(theta1))/(l2*l3*sin(theta2)), -(l3*sin(theta1 + theta2) + l2*sin(theta1))/(l2*l3*sin(theta2)),  0],[0,0, -1])]
+    					                                                                                                                                                ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 84
+

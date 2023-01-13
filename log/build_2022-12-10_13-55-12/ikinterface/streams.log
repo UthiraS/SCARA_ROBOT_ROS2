@@ -1,0 +1,32 @@
+[0.245s] Invoking command in '/home/asureshkumar/catkin_ws/build/ikinterface': /usr/bin/cmake /home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface -DCMAKE_INSTALL_PREFIX=/home/asureshkumar/catkin_ws/install/ikinterface
+[0.300s] -- The C compiler identification is GNU 11.3.0
+[0.363s] -- The CXX compiler identification is GNU 11.3.0
+[0.371s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.458s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.568s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.568s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.568s]   has asked CMake to find a package configuration file provided by
+[0.568s]   "ament_cmake", but CMake did not find one.
+[0.569s] 
+[0.569s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.569s]   any of the following names:
+[0.569s] 
+[0.569s]     ament_cmakeConfig.cmake
+[0.569s]     ament_cmake-config.cmake
+[0.569s] 
+[0.570s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.570s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.570s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.570s]   has been installed.
+[0.570s] 
+[0.570s] [0m
+[0.570s] -- Configuring incomplete, errors occurred!
+[0.570s] See also "/home/asureshkumar/catkin_ws/build/ikinterface/CMakeFiles/CMakeOutput.log".

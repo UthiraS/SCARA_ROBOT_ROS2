@@ -1,0 +1,29 @@
+[1.671s] Invoking command in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli': PYTHONPATH=/home/asureshkumar/catkin_ws/build/py_srvcli/prefix_override:/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/asureshkumar/catkin_ws/build/py_srvcli/build install --record /home/asureshkumar/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed
+[2.046s] running egg_info
+[2.047s] writing ../../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.047s] writing dependency_links to ../../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.047s] writing entry points to ../../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.048s] writing requirements to ../../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.048s] writing top-level names to ../../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.051s] reading manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.052s] writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.052s] running build
+[2.052s] running build_py
+[2.052s] copying py_srvcli/velocity_controller.py -> /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+[2.053s] running install
+[2.053s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.053s]   warnings.warn(
+[2.054s] running install_lib
+[2.055s] copying /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli/velocity_controller.py -> /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.056s] byte-compiling /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/velocity_controller.py to velocity_controller.cpython-310.pyc
+[2.057s] running install_data
+[2.058s] running install_egg_info
+[2.061s] removing '/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[2.061s] Copying ../../../build/py_srvcli/py_srvcli.egg-info to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.063s] running install_scripts
+[2.097s] Installing control script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+[2.098s] Installing listener script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+[2.098s] Installing service script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+[2.098s] Installing vel script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+[2.099s] writing list of installed files to '/home/asureshkumar/catkin_ws/build/py_srvcli/install.log'
+[2.153s] Invoked command in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli' returned '0': PYTHONPATH=/home/asureshkumar/catkin_ws/build/py_srvcli/prefix_override:/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/asureshkumar/catkin_ws/build/py_srvcli/build install --record /home/asureshkumar/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed

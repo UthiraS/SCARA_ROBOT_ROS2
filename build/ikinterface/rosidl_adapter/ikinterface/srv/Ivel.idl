@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ikinterface/srv/Ivel.srv
+// generated code does not contain a copyright notice
+
+
+module ikinterface {
+  module srv {
+    struct Ivel_Request {
+      float endeff_vel_x;
+
+      float endeff_vel_y;
+
+      float endeff_vel_z;
+    };
+    struct Ivel_Response {
+      double joint1_vel;
+
+      double joint2_vel;
+
+      double joint3_vel;
+    };
+  };
+};

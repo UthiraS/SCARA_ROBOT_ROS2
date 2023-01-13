@@ -1,0 +1,43 @@
+[1.038s] Invoking command in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli': PYTHONPATH=/home/asureshkumar/catkin_ws/build/py_srvcli/prefix_override:/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/asureshkumar/catkin_ws/build/py_srvcli/build install --record /home/asureshkumar/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.364s] running egg_info
+[1.365s] creating ../../../build/py_srvcli/py_srvcli.egg-info
+[1.366s] writing ../../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.366s] writing dependency_links to ../../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.367s] writing entry points to ../../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.367s] writing requirements to ../../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.367s] writing top-level names to ../../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.367s] writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.370s] reading manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.371s] writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.371s] running build
+[1.371s] running build_py
+[1.371s] creating /home/asureshkumar/catkin_ws/build/py_srvcli/build
+[1.372s] creating /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib
+[1.372s] creating /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+[1.372s] copying py_srvcli/__init__.py -> /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+[1.372s] copying py_srvcli/service_member_function.py -> /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+[1.373s] copying py_srvcli/traj_follow.py -> /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+[1.373s] running install
+[1.373s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.373s]   warnings.warn(
+[1.373s] running install_lib
+[1.374s] creating /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.374s] copying /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.374s] copying /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.375s] copying /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli/traj_follow.py -> /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.375s] byte-compiling /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[1.375s] byte-compiling /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[1.376s] byte-compiling /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/traj_follow.py to traj_follow.cpython-310.pyc
+[1.377s] running install_data
+[1.377s] creating /home/asureshkumar/catkin_ws/install/py_srvcli/share/ament_index
+[1.378s] creating /home/asureshkumar/catkin_ws/install/py_srvcli/share/ament_index/resource_index
+[1.378s] creating /home/asureshkumar/catkin_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[1.378s] copying resource/py_srvcli -> /home/asureshkumar/catkin_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[1.378s] copying package.xml -> /home/asureshkumar/catkin_ws/install/py_srvcli/share/py_srvcli
+[1.378s] running install_egg_info
+[1.381s] Copying ../../../build/py_srvcli/py_srvcli.egg-info to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.382s] running install_scripts
+[1.419s] Installing listener script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+[1.419s] Installing service script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+[1.420s] writing list of installed files to '/home/asureshkumar/catkin_ws/build/py_srvcli/install.log'
+[1.462s] Invoked command in '/home/asureshkumar/catkin_ws/src/Foundation_Project/py_srvcli' returned '0': PYTHONPATH=/home/asureshkumar/catkin_ws/build/py_srvcli/prefix_override:/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_srvcli build --build-base /home/asureshkumar/catkin_ws/build/py_srvcli/build install --record /home/asureshkumar/catkin_ws/build/py_srvcli/install.log --single-version-externally-managed

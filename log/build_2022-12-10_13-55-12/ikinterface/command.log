@@ -1,0 +1,1 @@
+Invoking command in '/home/asureshkumar/catkin_ws/build/ikinterface': /usr/bin/cmake /home/asureshkumar/catkin_ws/src/Foundation_Project/ikinterface -DCMAKE_INSTALL_PREFIX=/home/asureshkumar/catkin_ws/install/ikinterface

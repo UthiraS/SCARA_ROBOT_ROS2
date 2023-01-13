@@ -1,0 +1,4 @@
+Invoking command in '/home/asureshkumar/catkin_ws/build/ikinterface': /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/ikinterface -- -j8 -l8
+Invoked command in '/home/asureshkumar/catkin_ws/build/ikinterface' returned '0': /usr/bin/cmake --build /home/asureshkumar/catkin_ws/build/ikinterface -- -j8 -l8
+Invoking command in '/home/asureshkumar/catkin_ws/build/ikinterface': /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/ikinterface
+Invoked command in '/home/asureshkumar/catkin_ws/build/ikinterface' returned '0': /usr/bin/cmake --install /home/asureshkumar/catkin_ws/build/ikinterface

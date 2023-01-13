@@ -1,0 +1,30 @@
+running egg_info
+writing ../../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+writing dependency_links to ../../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+writing entry points to ../../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+writing requirements to ../../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+writing top-level names to ../../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+reading manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+writing manifest file '../../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_srvcli/velocity_controller.py -> /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+copying py_srvcli/traj_follow.py -> /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+copying py_srvcli/Velocity_Service.py -> /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli
+running install
+running install_lib
+copying /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli/velocity_controller.py -> /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+copying /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli/traj_follow.py -> /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+copying /home/asureshkumar/catkin_ws/build/py_srvcli/build/lib/py_srvcli/Velocity_Service.py -> /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+byte-compiling /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/velocity_controller.py to velocity_controller.cpython-310.pyc
+byte-compiling /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/traj_follow.py to traj_follow.cpython-310.pyc
+byte-compiling /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/Velocity_Service.py to Velocity_Service.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/py_srvcli/py_srvcli.egg-info to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+Installing service script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+Installing vel script to /home/asureshkumar/catkin_ws/install/py_srvcli/lib/py_srvcli
+writing list of installed files to '/home/asureshkumar/catkin_ws/build/py_srvcli/install.log'

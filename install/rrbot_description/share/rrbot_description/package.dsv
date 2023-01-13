@@ -1,0 +1,8 @@
+source;share/rrbot_description/hook/cmake_prefix_path.ps1
+source;share/rrbot_description/hook/cmake_prefix_path.dsv
+source;share/rrbot_description/hook/cmake_prefix_path.sh
+source;share/rrbot_description/local_setup.bash
+source;share/rrbot_description/local_setup.dsv
+source;share/rrbot_description/local_setup.ps1
+source;share/rrbot_description/local_setup.sh
+source;share/rrbot_description/local_setup.zsh

@@ -1,0 +1,4 @@
+source;share/ikinterface/local_setup.bash
+source;share/ikinterface/local_setup.dsv
+source;share/ikinterface/local_setup.sh
+source;share/ikinterface/local_setup.zsh

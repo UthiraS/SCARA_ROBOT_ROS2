@@ -1,0 +1,22 @@
+[  2%] Built target ikinterface__cpp
+[ 12%] Built target ikinterface__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_ikinterface
+[ 23%] Built target ikinterface__rosidl_typesupport_fastrtps_c
+[ 35%] Built target ikinterface__rosidl_typesupport_introspection_cpp
+[ 43%] Built target ikinterface__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target ikinterface__rosidl_typesupport_cpp
+[ 64%] Built target ikinterface__rosidl_typesupport_introspection_c
+[ 74%] Built target ikinterface__rosidl_typesupport_c
+[ 74%] Built target ikinterface
+[ 76%] Built target ikinterface__py
+[ 84%] Built target ikinterface__rosidl_generator_py
+[ 89%] Built target ikinterface__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target ikinterface__rosidl_typesupport_c__pyext
+[100%] Built target ikinterface__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing ikinterface.egg-info/PKG-INFO
+writing dependency_links to ikinterface.egg-info/dependency_links.txt
+writing top-level names to ikinterface.egg-info/top_level.txt
+reading manifest file 'ikinterface.egg-info/SOURCES.txt'
+writing manifest file 'ikinterface.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ikinterface_egg

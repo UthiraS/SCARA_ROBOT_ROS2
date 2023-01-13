@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/asureshkumar/catkin_ws/build/rrbot_description
+-- Install configuration: ""
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/config
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/gazebo
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/meshes
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/launch
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/ros2_control
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/urdf
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/environment/path.sh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/local_setup.bash
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/local_setup.sh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.dsv
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+-- Installing: /home/asureshkumar/catkin_ws/install/rrbot_description/share/rrbot_description/package.xml

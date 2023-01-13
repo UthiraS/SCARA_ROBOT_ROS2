@@ -1,0 +1,4 @@
+source;share/ikinterface/environment/ament_prefix_path.sh
+source;share/ikinterface/environment/library_path.sh
+source;share/ikinterface/environment/path.sh
+source;share/ikinterface/environment/pythonpath.sh
