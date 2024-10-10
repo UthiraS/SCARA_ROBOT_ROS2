@@ -1,5 +1,3 @@
-# SCARA_ROBOTHere's a brief, appealing markdown description of the SCARA robot project:
-
 # SCARA Robot: Simulation, Kinematics, and Control
 
 ## Objective
