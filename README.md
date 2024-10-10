@@ -1,5 +1,17 @@
-# SCARA_ROBOT
-Building Gazebo and running Forward and Inverse Kinematics 
+# SCARA_ROBOTHere's a brief, appealing markdown description of the SCARA robot project:
+
+# SCARA Robot: Simulation, Kinematics, and Control
+
+## Objective
+
+Develop a comprehensive simulation and control system for a SCARA (Selective Compliance Assembly Robot Arm) robot using ROS2 and Gazebo. This project encompasses:
+
+1. **3D Simulation**: Build and visualize the robot in Gazebo and RViz.
+2. **Kinematics**: Implement forward and inverse kinematics for precise positioning.
+3. **Controllers**: Design position and velocity controllers for smooth operation.
+4. **Velocity Kinematics**: Develop forward and inverse velocity kinematics for dynamic motion planning.
+
+Dive into the world of robotics, combining theoretical concepts with practical implementation to create a fully functional virtual SCARA robot!
 
 For part 1:
 ```
